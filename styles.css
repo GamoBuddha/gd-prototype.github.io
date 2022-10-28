@@ -83,4 +83,8 @@ nav {
     .title-div {
       margin-top: 150px;
     }
+  
+    .navbar-brand {
+      visibility: hidden;
+    }
 }
