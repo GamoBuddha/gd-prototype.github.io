@@ -7,7 +7,7 @@ body {
 }
 
 .coloured-section {
-  background-color: black;
+  background-color: #000;
   color: #fff;
 }
 
@@ -27,7 +27,7 @@ body {
 .title-paragraph {
   margin-top: 230px;
   margin-bottom: 0;
-  color: white;
+  color: #fff;
 }
 
 .title-div {
@@ -74,6 +74,13 @@ nav {
 }
 
 .nav-link:hover {
-  background-color: #fff;
   color: #45ad61;
+}
+
+/* Mobile Web Setup*/
+
+@media only screen and (max-width: 1024px) {
+    .title-div {
+      margin-top: 150px;
+    }
 }
