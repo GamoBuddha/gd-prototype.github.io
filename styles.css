@@ -7,7 +7,7 @@ body {
 }
 
 .coloured-section {
-  background-color: #000;
+  background-color: black;
   color: #fff;
 }
 
@@ -27,7 +27,7 @@ body {
 .title-paragraph {
   margin-top: 230px;
   margin-bottom: 0;
-  color: #fff;
+  color: white;
 }
 
 .title-div {
@@ -83,7 +83,7 @@ nav {
     .title-div {
       margin-top: 150px;
     }
-  
+
     .navbar-brand {
       visibility: hidden;
     }
