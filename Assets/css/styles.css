@@ -1,0 +1,174 @@
+body {
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Baloo Bhai 2';
+}
+
+.greenish {
+  color: #45ad61;
+}
+
+.container-fluid {
+  padding: 9% 15%;
+}
+
+/* SECTIONS */
+.coloured-section {
+  background-color: black;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* TITLE SECTION */
+.title-div {
+  margin-top: 70px;
+}
+
+.big-heading {
+  font-family: 'Gluten';
+  font-size: 3.5rem;
+}
+
+.title-paragraph {
+  margin-top: 230px;
+}
+
+/* SERVICES SECTION */
+.service-heading {
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-family: 'Baloo Bhai 2';
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: justify;
+}
+
+.DIETICIAN-gd-image {
+  width: 167px;
+  height: 166px;
+  float: right;
+  margin-top: 40px;
+}
+
+.DIET-CHEF-gd-image {
+  width: 100px;
+  height: 171.6px;
+  float: right;
+  margin-top: 40px;
+}
+
+.TRAINER-gd-image {
+  width: 164.6px;
+  height: 168.3px;
+  float: right;
+  margin-top: 70px;
+}
+
+.feature-subtitle {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/* CREDITS */
+#credits {
+  text-align: justify;
+}
+
+#credits .paragraph {
+  margin-right: 600px;
+  font-family: 'Libre Franklin';
+}
+
+.copyright a {
+  color: #fff;
+  padding: 8px;
+  float: right;
+}
+
+.copyright a:hover {
+  color: #45ad61;
+}
+
+table {
+  float: right;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+  font-family: 'Libre Franklin';
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  font-family: 'Baloo Bhai 2';
+}
+
+table a {
+  text-decoration: none;
+  color: #fff;
+}
+
+table a:hover {
+  color: grey;
+  transition: color 0.2s;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: 3px;
+}
+
+hr {
+  margin-top: 100px
+}
+
+/* Navbar setup */
+nav {
+  padding: 10%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-nav .active a {
+  background-color: #fff;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #45ad61;
+}
+
+/* Mobile Web Setup*/
+@media only screen and (max-width: 1024px) {
+  .title-div {
+    margin-top: 150px;
+  }
+
+  .navbar-brand {
+    visibility: hidden;
+  }
+}
